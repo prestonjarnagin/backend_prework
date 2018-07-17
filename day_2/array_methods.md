@@ -19,27 +19,30 @@
 .join  
   Converts each element in the array to a string, then returns a combination of
   those strings, with an optional separator
-  `array = [2, 1]  
+  ```array = [2, 1]  
   array.join  
   returns "21"  
   array.join(**)  
-  returns "2**1"`
+  returns "2**1"
+  ```
 
 .index  
-  Returns the index where the argument is found.
-  `array = ["All", "the", "single", "ladies"]  
+  Returns the index where the argument is found.  
+  ```array = ["All", "the", "single", "ladies"]  
   array.index("the")  
   returns 1  
   array.index("now put your hands up")  
-  returns nil`  
+  returns nil
+  ```  
 
 .include?  
   Returns true or false if the argument is present in the array
 
 .collect  
   Creates a new array based on what its given in curly braces
-  `array = [1, 3, 5]  
-  array.collect {|i| i*=2}`  
+  ```array = [1, 3, 5]  
+  array.collect {|i| i*=2}
+  ```  
   This would multiply each element of the array by 2, and return a new array
   of [2, 6, 10]
 
